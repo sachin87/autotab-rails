@@ -1,0 +1,4 @@
+Gemfile~:# Specify your gem's dependencies in chosen-rails.gemspec
+lib/autotab-rails/source_file.rb~:    get "#{remote}/raw/#{branch}/coffee/lib/abstract-chosen.coffee", 'javascripts/lib/abstract-chosen.coffee'
+lib/autotab-rails/source_file.rb~:      append_to_file 'javascripts/lib/abstract-chosen.coffee' do
+lib/autotab-rails/source_file.rb~:      gsub_file '../../lib/chosen-rails/version.rb', /CHOSEN_VERSION\s=\s'(\d|\.)+'$/ do |match|
