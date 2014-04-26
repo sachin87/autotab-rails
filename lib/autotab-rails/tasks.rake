@@ -1,3 +1,5 @@
+# @author Sachin Singh
+
 require 'fileutils'
 
 desc 'Create nondigest versions of all autotab digest assets'

@@ -1,4 +1,6 @@
 #!/usr/bin/env rake
+# @author Sachin Singh
+
 require 'bundler/gem_tasks'
 require File.expand_path('../lib/autotab-rails/source_file', __FILE__)
 

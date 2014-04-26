@@ -1,3 +1,4 @@
+# @author Sachin Singh
 # -*- encoding: utf-8 -*-
 require File.expand_path('../lib/autotab-rails/version', __FILE__)
 

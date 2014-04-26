@@ -1,3 +1,5 @@
+# @author Sachin Singh
+
 require 'thor'
 require 'json'
 

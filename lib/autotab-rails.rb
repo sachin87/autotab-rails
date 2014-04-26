@@ -1,3 +1,5 @@
+# @author Sachin Singh
+
 require 'autotab-rails/version'
 
 module AutoTab

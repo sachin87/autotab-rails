@@ -1,3 +1,5 @@
+# @author Sachin Singh
+
 module Autotab
   module Rails
     class Engine3 < ::Rails::Engine

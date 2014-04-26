@@ -1,3 +1,5 @@
+# @author Sachin Singh
+
 module AutoTab
   module Rails
     VERSION = '0.0.1'
