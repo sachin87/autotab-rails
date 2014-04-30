@@ -2,6 +2,7 @@
 
 require 'thor'
 require 'json'
+require 'debugger'
 
 class SourceFile < Thor
   include Thor::Actions
@@ -9,8 +10,8 @@ class SourceFile < Thor
   desc 'fetch source files', 'fetch source files from GitHub'
   def fetch remote, branch
     self.destination_root = 'vendor/assets'
-    get "#{remote}/raw/#{branch}/js/autotab-jquery.js", 'javascripts/autotab-jquery.js'
-    get "#{remote}/raw/#{branch}/js/autotab-jquery.min.js", 'javascripts/autotab-jquery.min.js'
+    get "#{remote}/raw/#{branch}/js/jquery.autotab.js", 'javascripts/autotab-jquery.js'
+    get "#{remote}/raw/#{branch}/js/jquery.autotab.min.js", 'javascripts/autotab-jquery.min.js'
     get "#{remote}/raw/#{branch}/component.json", 'component.json'
     bump_version
   end
