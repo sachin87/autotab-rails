@@ -2,7 +2,6 @@
 
 require 'thor'
 require 'json'
-require 'debugger'
 
 class SourceFile < Thor
   include Thor::Actions
