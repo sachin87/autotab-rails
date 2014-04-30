@@ -6,7 +6,7 @@ require File.expand_path('../lib/autotab-rails/source_file', __FILE__)
 
 desc "Update with Harvest's AutoTab Library"
 task 'update-autotab', 'repository_url', 'branch' do |task, args|
-  remote = args['repository_url'] || 'https://github.com/sachin87/autotab-rails'
+  remote = args['repository_url'] || 'https://github.com/Mathachew/jquery-autotab'
   branch = args['branch'] || 'master'
   files = SourceFile.new
   files.fetch remote, branch
