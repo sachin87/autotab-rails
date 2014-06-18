@@ -45,6 +45,9 @@ And this file must be included in `application.js`
     //= require autotab-jquery
     //= require custom
 
+## Limitations
+
+The jquery-autotab does not working on iphone.[READ MORE](https://github.com/Mathachew/jquery-autotab/issues/45)
 
 ## Gem maintenance
 
@@ -57,6 +60,10 @@ Update origin autotab source files.
 Publish gem.
 
     rake release
+
+## Contributing to jquery-autotab
+
+Fork, fix, then send me a pull request.
 
 ## License
 
