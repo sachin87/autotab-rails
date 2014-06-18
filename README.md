@@ -47,7 +47,7 @@ And this file must be included in `application.js`
 
 ## Limitations
 
-The jquery-autotab does not working on iphone.[READ MORE](https://github.com/Mathachew/jquery-autotab/issues/45)
+The jquery-autotab does not works on iphone.[READ MORE](https://github.com/Mathachew/jquery-autotab/issues/45)
 
 ## Gem maintenance
 
