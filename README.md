@@ -2,6 +2,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/autotab-rails.svg)](http://badge.fury.io/rb/autotab-rails)
 [![Code Climate](https://codeclimate.com/github/sachin87/autotab-rails.png)](https://codeclimate.com/github/sachin87/autotab-rails)
+[![License](http://img.shields.io/license/MIT.png?color=green)](http://opensource.org/licenses/MIT)
 
 [Autotab](https://github.com/Mathachew/jquery-autotab) is a jQuery plugin that provides auto tabbing and filtering on text fields in a form. Once the maximum number of characters has been reached within a text field, the focus is automatically set to a defined element. Likewise, clearing out the text field's content by pressing backspace eventually places the focus on a previous element.
 
