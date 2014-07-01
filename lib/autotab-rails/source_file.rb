@@ -7,7 +7,7 @@ class SourceFile < Thor
   include Thor::Actions
 
   desc 'fetch source files', 'fetch source files from GitHub'
-  def fetch remote, branch
+  def fetch(remote, branch)
     self.destination_root = 'vendor/assets'
     get "#{remote}/raw/#{branch}/js/jquery.autotab.js", 'javascripts/autotab-jquery.js'
     get "#{remote}/raw/#{branch}/js/jquery.autotab.min.js", 'javascripts/autotab-jquery.min.js'
