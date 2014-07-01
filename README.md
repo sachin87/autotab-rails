@@ -67,8 +67,8 @@ Publish gem.
 
 ## Contributing to jquery-autotab
 
-Fork, fix, then send me a pull request.
+    Fork, fix, then send me a pull request.
 
 ## License
 
-use MIT license.
+    MIT license.
