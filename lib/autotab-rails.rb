@@ -14,4 +14,6 @@ when /^3\.[12]/
   require 'autotab-rails/engine3'
 when /^3\.[0]/
   require 'autotab-rails/railtie'
+else
+  raise 'Unsupported rails version'
 end
