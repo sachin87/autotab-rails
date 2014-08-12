@@ -15,5 +15,5 @@ when /^3\.[12]/
 when /^3\.[0]/
   require 'autotab-rails/railtie'
 else
-  raise 'Unsupported rails version'
+  raise 'autotab-rails does not supports rails < 3.'
 end
