@@ -18,14 +18,14 @@ class SourceFile < Thor
   desc 'clean up useless files', 'clean up useless files'
   def cleanup
     self.destination_root = 'vendor/assets'
-    remove_file 'component.json'
+    remove_file 'bower.json'
   end
 
   protected
 
   def bump_version
     inside destination_root do
-      component_json = JSON.load(File.open('component.json'))
+      component_json = JSON.load(File.open('bower.json'))
       version = component_json['version']
       gsub_file '../../lib/autotab-rails/version.rb', /AUTO_TAB_VERSION\s=\s'(\d|\.)+'$/ do |match|
         %Q{AUTO_TAB_VERSION = '#{version}'}

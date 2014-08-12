@@ -2,7 +2,7 @@
 
 module AutoTab
   module Rails
-    VERSION = '0.0.2'
-    AUTO_TAB_VERSION = '1.6'
+    VERSION = '0.0.3'
+    AUTO_TAB_VERSION = '1.7.0'
   end
 end
