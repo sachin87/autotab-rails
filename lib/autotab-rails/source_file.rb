@@ -11,7 +11,7 @@ class SourceFile < Thor
     self.destination_root = 'vendor/assets'
     get "#{remote}/raw/#{branch}/js/jquery.autotab.js", 'javascripts/autotab-jquery.js'
     get "#{remote}/raw/#{branch}/js/jquery.autotab.min.js", 'javascripts/autotab-jquery.min.js'
-    get "#{remote}/raw/#{branch}/component.json", 'component.json'
+    get "#{remote}/raw/#{branch}/bower.json", 'bower.json'
     bump_version
   end
 
