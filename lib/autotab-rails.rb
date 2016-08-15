@@ -8,6 +8,8 @@ module AutoTab
 end
 
 case ::Rails.version.to_s
+when /^5/
+  require 'autotab-rails/engine'
 when /^4/
   require 'autotab-rails/engine'
 when /^3\.[12]/
